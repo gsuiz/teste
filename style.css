@@ -1,0 +1,35 @@
+.kanban{
+    width: min-content;
+    margin:150px auto;
+    display: flex;
+    gap: 20px;
+}
+
+.box{
+    width: 160px;
+    height: 400px;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+
+.item{          
+    width: 90%;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Josefin Sans";
+    font-weight: 600;
+    cursor: pointer
+}
+
+.draggabled{
+    opacity: 0.5;
+}
